@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import UserClaim from "./components/UserClaim";
-import Leaderboard from "./components/Leaderboard";
+import UserClaim from "./Components/UserClaim";
+import Leaderboard from "./Components/Leaderboard";
 
 const App = () => {
   const [update, setUpdate] = useState(false);
